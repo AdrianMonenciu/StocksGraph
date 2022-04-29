@@ -26,11 +26,11 @@ function App() {
         }
         setStockYValue(tempStockYValue)
       })
-  }, [selectedStock, selectedTimeExtension])
+  }, [selectedStock])
 
   return (
     <>
-      <h1>Stock Graph</h1>
+      <h1>Stock Market Graph</h1>
       <div className="SelectionMenu">
         <label>Select the Stock: </label>
         <SelectionMenu 
